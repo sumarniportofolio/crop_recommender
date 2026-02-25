@@ -1,5 +1,5 @@
 import streamlit as st
-from model import predict_crop
+from src.train import predict_crop
 
 # Page config
 st.set_page_config(
